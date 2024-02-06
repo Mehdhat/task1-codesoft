@@ -1,0 +1,38 @@
+@media (max-width:991px) {
+    .text-content{
+        width: 100%;
+    }
+    .navigation-wrap .navigation-brand{
+        height: 3.8125rem;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-links{
+        line-height: 1.875rem;
+    }
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+}
+@media(max-width:767px){
+    h1 {
+      font-size: 2rem; /* Adjust the font size for smaller screens */
+    }
+  
+    h3.marquee-text {
+      font-size: 1.35rem; /* Adjust the font size for smaller screens */
+    }
+  
+    .main-btn {
+      font-size: 0.8rem; /* Adjust the font size for smaller screens */
+    }  
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+    #about{
+        border: none;
+        border-bottom: 4px solid var(--first-color);
+    }
+}

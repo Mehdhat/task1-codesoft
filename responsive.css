@@ -7,7 +7,7 @@
     }
     .navigation-wrap{
         text-align: center;
-        background-color: var(--white-color);
+        background-color: var(--dark-color);
     }
     .navigation-wrap .nav-links{
         line-height: 1.875rem;
@@ -18,21 +18,33 @@
 }
 @media(max-width:767px){
     h1 {
-      font-size: 2rem; /* Adjust the font size for smaller screens */
+      font-size: 2rem; 
     }
   
     h3.marquee-text {
-      font-size: 1.35rem; /* Adjust the font size for smaller screens */
+      font-size: 1.35rem;
     }
   
     .main-btn {
-      font-size: 0.8rem; /* Adjust the font size for smaller screens */
+      font-size: 0.8rem; 
     }  
     .top-banner{
         padding: 10.875rem 0 9.375rem;
     }
     #about{
         border: none;
-        border-bottom: 4px solid var(--first-color);
+        border-bottom: 4px solid var(--dark-color);
+    }
+    #skills{
+        border: none;
+        border-bottom: 4px solid var(--dark-color);
+        padding-bottom: 10px;
+        border-radius: 24px;
+    }
+    #projects{
+        border: none;
+        border-bottom: 4px solid var(--dark-color);
+        padding-bottom: 10px;
+        border-radius: 24px;
     }
 }
